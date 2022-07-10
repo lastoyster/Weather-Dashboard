@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px 5px #474747;
+}
+
+main {
+  padding: 1.5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#crypto-top {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+#crypto-name {
+  margin-left: 10px;
+}
+
+#crypto-bottom {
+  margin-top: 10px;
+  font-size: 1.125rem;
+}
+
+.fa-bullseye {
+  color: red;
+}
+
+.fa-arrow-up,
+.fa-arrow-down {
+  color: rgb(255, 183, 0);
+}
+
+#weather {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+#weather > img {
+  width: 85px;
+}
+
+#temperature {
+  font-size: 3rem;
+}
+
+#feels-like,
+#weather-city {
+  margin: 0;
+  width: 100%;
+  font-size: 1.125rem;
+}
+
+#time {
+  text-align: center;
+  font-size: 4rem;
+}
+
+#author {
+  align-self: flex-end;
+  font-size: 1.125rem;
+}
+
+#sports {
+  text-align: right;
+}
+
+a {
+  color: #ffffff;
+  font-style: italic;
+}
+
+.fa-basketball-ball {
+  color: orange;
+}
+
+#sports-news-header {
+  margin: 0;
+}
+
+#headline {
+  margin-top: 5px;
+  font-size: 1.125rem;
+}
